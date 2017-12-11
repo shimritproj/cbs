@@ -13,26 +13,27 @@ namespace CBS.WEB2.Controllers
             return View();
         }
 
-        public ActionResult About()
-        {
-            ViewBag.Message = "Your application description page.";
-
-            return View();
-        }
-
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
-        }
-
         public ActionResult CBS()
         {
             //string[] arg = "";
             //CPF_experiment.Program.Main(/*arg*/);
             var output = CPF_experiment.Program.RunCBS();
             //var output = "abc" + "\r\n" + "bcd";
+            return View("CBS");
+
+            //return Content("<pre>" + output + "</pre>");
+        }
+
+        [HttpPost]
+        [ActionName("RunCBS")]
+        public ActionResult CBS2(string map, string algorithm)
+        {
+            //string[] arg = "";
+            //CPF_experiment.Program.Main(/*arg*/);
+            var output = CPF_experiment.Program.RunCBS(map, algorithm);
+            ////var output = "abc" + "\r\n" + "bcd";
+            //return View("CBS");
+
             return Content("<pre>" + output + "</pre>");
         }
     }

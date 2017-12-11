@@ -7,6 +7,20 @@ using System.IO;
 
 namespace CPF_experiment
 {
+
+    public enum Map
+    {
+        Unspecified = 0,
+        Random = 1,
+        FromFile = 2
+    }
+
+    public enum Algorithm
+    {
+        Unspecified = 0,
+        CBS = 1
+    }
+
     /// <summary>
     /// This is the entry point of the application. 
     /// </summary>
@@ -160,8 +174,8 @@ namespace CPF_experiment
             // FIXME: Code dup with RunExperimentSet
 
             TextWriter output;
-           // int[] agentListSizes = { 5, 10 };
-            int[] agentListSizes = {5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200, 250, 300};
+            // int[] agentListSizes = { 5, 10 };
+            int[] agentListSizes = { 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200, 250, 300 };
 
             bool continueFromLastRun = false;
             string[] lineParts = null;
@@ -185,10 +199,10 @@ namespace CPF_experiment
                     for (int map = 0; map < mapFileNames.Length; map++)
                     {
                         /////@@@@@@@@@@@@
-                      //  if (map == 1)
-                      //  {
-                      //      i = 9;
-                      //  }
+                        //  if (map == 1)
+                        //  {
+                        //      i = 9;
+                        //  }
                         Debug.WriteLine($@"on start {ag},{i},{map}");
                         if (continueFromLastRun) //set the latest problem
                         {
@@ -254,8 +268,11 @@ namespace CPF_experiment
         /// <summary>
         /// This is the starting point of the program. 
         /// </summary>
-        public static string RunCBS()
+        public static string RunCBS(string map = null, string algorithm = null)
         {
+            Map lMap = map != null ? (Map) Enum.Parse(typeof(Map), map) : Map.Random;
+            Algorithm lAlgorithm = algorithm != null ? (Algorithm)Enum.Parse(typeof(Algorithm), algorithm) : Algorithm.CBS;
+
             Directory.SetCurrentDirectory(@"d:\Downloads\פרויקט גמר\eli.boyarski-mapf-d06b29ae75e8\bin\Debug");
             MemoryStream ms = new MemoryStream();
 

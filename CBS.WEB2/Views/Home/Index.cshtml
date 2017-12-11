@@ -2,8 +2,28 @@
     ViewBag.Title = "Home Page";
 }
 
-
-@Html.ActionLink("Click here", "CBS", "Home")
-
-
-
+@Html.BeginForm("RunCBS", "Home", FormMethod.Post, new { target = "_blank" })
+{
+    <h2>a framework for running multi-agent path-finding algorithm</h2>
+    <hr />
+    <br />
+    <label>Choose Map: </label>
+    <br />
+    @Html.DropDownList("Map", new List<SelectListItem> {
+        new SelectListItem { Value = "1" , Text = "Random" },
+        new SelectListItem { Value = "2" , Text = "From File" }
+    })
+    <br />
+    <br />
+    <br />
+    <label>Choose Algorithm: </label>
+    <br />
+    @Html.DropDownList("Algorithm", new List<SelectListItem> {
+        new SelectListItem { Value = "1" , Text = "CBS" }
+    })
+    <br />
+    <br />
+    <br />
+    <input type="submit" value="Go !">
+    @*@Html.ActionLink("Go !", "CBS", "Home")*@
+}
