@@ -1,0 +1,555 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CPF_experiment.AdditivePDBs" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YMAAAAAAAAAAAACAAAABAAACgABAAAIAQIAACAAAAAA=</HashCode>
+      <FileName>AdditivePDBs.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CPF_experiment.Agent" Collapsed="true">
+    <Position X="17.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQAAAAAAAAAAAAAEgAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Agent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPF_experiment.AgentState" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAIAAAAQQEoAAQAgAACBAIAIAKQABAGAAAAAA=</HashCode>
+      <FileName>AgentState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CPF_experiment.AStarMDD" Collapsed="true">
+    <Position X="22.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SwgAAAAAAAAAhAABQoABCAAIAAAAAIBAQAACAAAABAA=</HashCode>
+      <FileName>AStarMDD.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPF_experiment.MDDStep" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAgACAAAIAQAoAAAAgAACAAAAIAACAAAAAAAAAA=</HashCode>
+      <FileName>AStarMDD.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CPF_experiment.ExpandedNode" Collapsed="true">
+    <Position X="21" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAhAAAAAAABAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>AStarMDD.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPF_experiment.AStarWithOD" Collapsed="true">
+    <Position X="0.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wcEAAAAADAAAAAAAEAAgABAAgABAAACAAAAACIAABAE=</HashCode>
+      <FileName>AStarWithOD.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPF_experiment.AStarWithPartialExpansion" Collapsed="true">
+    <Position X="2.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wcEAAAAADAAAAAAAAAAgABAAgABAAACAAAAACEAABAA=</HashCode>
+      <FileName>AStarWithPartialExpansion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPF_experiment.AStarWithPartialExpansionBasic" Collapsed="true">
+    <Position X="5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QekAAAAADAAIQAAAACAgABAAgABAAACAAAAACAAABAA=</HashCode>
+      <FileName>AStarWithPartialExpansionBasic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPF_experiment.AStarWithRID" Collapsed="true">
+    <Position X="0.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>AStarWithRID.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPF_experiment.BinaryHeap" Collapsed="true">
+    <Position X="24.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQIAAAAgBAAEAIAQAAAARgQCAgAABQAAQACAAQBQIAA=</HashCode>
+      <FileName>BinaryHeap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPF_experiment.CBS_LocalConflicts" Collapsed="true">
+    <Position X="11.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>aeACAAISDgAQCQYFakCiGQwc0gBADQDAAMAAyKBCBoA=</HashCode>
+      <FileName>CBS\CBS.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CPF_experiment.CBS_GlobalConflicts" Collapsed="true">
+    <Position X="11.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAABAA=</HashCode>
+      <FileName>CBS\CBS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPF_experiment.CBS_IDA" BaseTypeListCollapsed="true">
+    <Position X="17.5" Y="1.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>aaQCACAAKiAQASAAIgQiCQQcxABACBDAAIAAwCBABiA=</HashCode>
+      <FileName>CBS\CBS_IDA.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CPF_experiment.CbsConflict" Collapsed="true">
+    <Position X="19.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAEgwAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>CBS\CbsConflict.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPF_experiment.CbsConstraint" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAIAQSMggAAAAAAAAAAAIAAAAADAAABAAA=</HashCode>
+      <FileName>CBS\CbsConstraint.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CPF_experiment.CbsHeuristic" Collapsed="true">
+    <Position X="13.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>4MAAAIAAAAAAIgAEAAAggCQAgABAAgJQQAAACQAAEAI=</HashCode>
+      <FileName>CBS\CbsHeuristic.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CPF_experiment.DyanamicLazyCbsh" Collapsed="true">
+    <Position X="13.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>CBS\CbsHeuristic.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CPF_experiment.CbsNode" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QgAAAAgQBACAquQAogAAAwAKHAACLIBEAQBAIABAEBA=</HashCode>
+      <FileName>CBS\CbsNode.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CPF_experiment.ClassicAStar" Collapsed="true">
+    <Position X="2.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>6eAGCAiCjAIQIyINYAgiAQwIwABABYDAQEQAiGBChgA=</HashCode>
+      <FileName>ClassicAStar.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CPF_experiment.Conflict" Collapsed="true">
+    <Position X="24.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAgABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Conflict.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPF_experiment.Constants" Collapsed="true">
+    <Position X="15.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GigAAAAAAABAAAAAAAAAAAAAAAAAAAABBAAgCAAAAAA=</HashCode>
+      <FileName>Constants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPF_experiment.CostTreeNodeSolver" Collapsed="true">
+    <Position X="3.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAEAAAAAAAAAAoAIAAAAAAIQAAAAIBAQABAABAAAAA=</HashCode>
+      <FileName>CostTreeNodeSolver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPF_experiment.CostTreeNode" Collapsed="true">
+    <Position X="17.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABABAAAAAAAAAIAgAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>CostTreeNodeSolver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPF_experiment.CostTreeNodeSolverOldMatching" Collapsed="true">
+    <Position X="2.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAIAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CostTreeNodeSolver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPF_experiment.CostTreeNodeSolverDDBF" Collapsed="true">
+    <Position X="5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CostTreeNodeSolver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPF_experiment.CostTreeNodeSolverKSimpaleMatching" Collapsed="true">
+    <Position X="7.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAgAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CostTreeNodeSolver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPF_experiment.CostTreeNodeSolverRepatedMatching" Collapsed="true">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAIAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CostTreeNodeSolver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPF_experiment.CostTreeSearch" Collapsed="true">
+    <Position X="3.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAIAAAAAAAAAAAAAAABAAAAAAAAAAABAA=</HashCode>
+      <FileName>CostTreeSearch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPF_experiment.CostTreeSearchOldMatching" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>CostTreeSearch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPF_experiment.CostTreeSearchNoPruning" Collapsed="true">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>CostTreeSearch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPF_experiment.CostTreeSearchKMatch" Collapsed="true">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>CostTreeSearch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPF_experiment.CostTreeSearchRepatedMatch" Collapsed="true">
+    <Position X="7.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>CostTreeSearch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPF_experiment.CostTreeSearchSolver" Collapsed="true">
+    <Position X="3.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>auACAEQQCAAQIQAlYsQKASQOwBBABQDAAIAAGCBAJgA=</HashCode>
+      <FileName>CostTreeSearchSolver.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CPF_experiment.CostTreeSearchSolverOldMatching" Collapsed="true">
+    <Position X="5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAIAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>CostTreeSearchSolver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPF_experiment.CostTreeSearchSolverNoPruning" Collapsed="true">
+    <Position X="7.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>CostTreeSearchSolver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPF_experiment.CostTreeSearchSolverKMatch" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACCAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>CostTreeSearchSolver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPF_experiment.CostTreeSearchSolverRepatedMatch" Collapsed="true">
+    <Position X="2.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAIAIAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>CostTreeSearchSolver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPF_experiment.Dictionary_U&lt;K, V&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAEABgACAAAAAQAAAAAABAEAAAgBABEAAA=</HashCode>
+      <FileName>Dictionary_U.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CPF_experiment.DynamicLazyOpenList" Collapsed="true">
+    <Position X="3.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YMAAAAAAAAAAAAAEgAAABAAAgABAAABAAAAACAAAAAA=</HashCode>
+      <FileName>DynamicLazyOpenList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPF_experiment.DynamicRationalLazyOpenList" Collapsed="true">
+    <Position X="5.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>cMBAoAEAgAAIAAQEgAAABAAAwABAAIREAEgACAAAAhA=</HashCode>
+      <FileName>DynamicRationalLazyOpenList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPF_experiment.EnumeratedPDB" Collapsed="true">
+    <Position X="10.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAACAAAAAAAAAAAAAAIBQIggAAQAAAA=</HashCode>
+      <FileName>EnumeratedPDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPF_experiment.HashSet_U&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAABgQAAAABAQAAAAAABAEAAAABABUIAA=</HashCode>
+      <FileName>HashSet_U.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CPF_experiment.MDD" Collapsed="true">
+    <Position X="17.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QgAAQAAAAAAAAEAgAAAEAAAAAAEAAAIAAAAAAQAEAAA=</HashCode>
+      <FileName>MDD.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPF_experiment.MDDNode" Collapsed="true">
+    <Position X="22.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAoAAAgCAAACgASAgJAAAQAAgBAAAMFBAAAAAGIQACA=</HashCode>
+      <FileName>MDD.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPF_experiment.MddMatchAndPrune" Collapsed="true">
+    <Position X="19.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQAAEgAAAAAAABYAECAAAAABAAAABAAAAAhAIAAAA=</HashCode>
+      <FileName>MddMatchAndPrune.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPF_experiment.MddMatchAndPruneState" Collapsed="true">
+    <Position X="21" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAgAAAACAAAAAAQAgAAAAAAAAAAAAIAAAAAAAAgAAAA=</HashCode>
+      <FileName>MddMatchAndPrune.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPF_experiment.successorIterator" Collapsed="true">
+    <Position X="19.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EABAAAAAAAQAAAAAAAEQQAAAAAAAAAAAAgACAAAAAAA=</HashCode>
+      <FileName>MddMatchAndPrune.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPF_experiment.Move" Collapsed="true">
+    <Position X="8.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAAgAAACAJAgEgCQAAAQAAEAAgJAACCDgQAIAAIA=</HashCode>
+      <FileName>Move.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPF_experiment.OpenList" Collapsed="true">
+    <Position X="4.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YMIAAIgAgAAEAAAEAABABAQAgEBAAAAAAEAACgBAAQA=</HashCode>
+      <FileName>OpenList.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CPF_experiment.PDB" Collapsed="true">
+    <Position X="9.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YcAAAAAAAAAAAAAAAAgAAAAAgARAAAIBQIAQCAAAAAA=</HashCode>
+      <FileName>PDB.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CPF_experiment.Plan" Collapsed="true">
+    <Position X="17.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAgCAACAAAAAAEAAAAAABAABAAIAAAIAAAA=</HashCode>
+      <FileName>Plan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPF_experiment.SinglePlan" Collapsed="true">
+    <Position X="17.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAKAECAgAAAAAAAAgAABAABAAAAAAoAAAA=</HashCode>
+      <FileName>Plan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPF_experiment.ProblemInstance" Collapsed="true">
+    <Position X="19.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgEAAEIAAIAiAEMAgIBAAAAgIACAAAAIhygACACAg=</HashCode>
+      <FileName>ProblemInstance.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPF_experiment.Program" Collapsed="true">
+    <Position X="21" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAQAQAAAAAAAAABAAAAAAIQAAAAAgABCACAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPF_experiment.RandomChoiceOfHeuristic" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YMAAAIAAAAAAAAAEAgEAAAAAgABAAAIAQEAACAAAAAA=</HashCode>
+      <FileName>RandomChoiceOfHeuristic.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CPF_experiment.Run" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QACEAoAEqTIAAihAAAgoBAAAAAAAAAIBAAAAAAAAgAI=</HashCode>
+      <FileName>Run.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CPF_experiment.SumIndividualCosts" Collapsed="true">
+    <Position X="8.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YMAAAAAAAAAAAAAEAAAAAAAAgABAAAABQIAACAAAAAA=</HashCode>
+      <FileName>SumIndividualCosts.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPF_experiment.TimedMove" Collapsed="true">
+    <Position X="8.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQDAAAAEAAAAAgAgAQAAAAAAAAAAIAAAACAAAIAAAA=</HashCode>
+      <FileName>TimedMove.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPF_experiment.Trevor" Collapsed="true">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>aNUgAAECDAACATAAoAASAUQIgAFkgIDAQAQQCjDgBgA=</HashCode>
+      <FileName>Trevor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CPF_experiment.AgentsGroup" Collapsed="true">
+    <Position X="19.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAwiQgEgAAAAAgIBAFICIAAQAAAAgAAAAA=</HashCode>
+      <FileName>Trevor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPF_experiment.WorldState" Collapsed="true">
+    <Position X="11.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAhHAAAEBIAAiQQloAAAMkgBSAAQDIBIwAAEAAACAAA=</HashCode>
+      <FileName>WorldState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CPF_experiment.WorldStateForPartialExpansion" Collapsed="true">
+    <Position X="10.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAgCgAQQAAAAQIAAAAAAAABIAAAAAAAAgIBBAAA=</HashCode>
+      <FileName>WorldStateForPartialExpansion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPF_experiment.WorldStateWithOD" Collapsed="true">
+    <Position X="12.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAQggAAAEAABAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>WorldStateWithOD.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBS.WEB2.BundleConfig" Collapsed="true">
+    <Position X="15.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\BundleConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBS.WEB2.FilterConfig" Collapsed="true">
+    <Position X="22.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\FilterConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBS.WEB2.RouteConfig" Collapsed="true">
+    <Position X="24.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\RouteConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBS.WEB2.MvcApplication" Collapsed="true">
+    <Position X="15.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Global.asax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBS.WEB2.Controllers.HomeController" Collapsed="true">
+    <Position X="15.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEACAAAAAAAAAAAAAAAAAEAAAAAgAA=</HashCode>
+      <FileName>Controllers\HomeController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="CPF_experiment.HeuristicCalculator" Collapsed="true">
+    <Position X="12.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAQAAAAAAAAAA=</HashCode>
+      <FileName>HeuristicCalculator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CPF_experiment.LazyHeuristic" Collapsed="true">
+    <Position X="12.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>HeuristicCalculator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CPF_experiment.IBinaryHeapItem" Collapsed="true">
+    <Position X="15.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IBinaryHeapItem.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CPF_experiment.ISolver" Collapsed="true">
+    <Position X="10.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAACAAAAQAAIAACAAQIAAAAAACAAAAAACBABgA=</HashCode>
+      <FileName>ISolver.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CPF_experiment.ICbsSolver" Collapsed="true">
+    <Position X="11.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAACAAAAAAAAAAAAAAAAAAABQBAAAAAAAAAAAA=</HashCode>
+      <FileName>ISolver.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CPF_experiment.IStatisticsCsvWriter" Collapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YIAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IStatisticsCsvWriter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CPF_experiment.IAccumulatingStatisticsCsvWriter" Collapsed="true">
+    <Position X="12.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>IStatisticsCsvWriter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

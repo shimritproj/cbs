@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CBS.WEB2", "CBS.WEB2\CBS.WEB2.csproj", "{15691C5B-B9A7-4A52-A3B9-1FEA901337B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CPF-experiment", "D:\Downloads\פרויקט גמר\eli.boyarski-mapf-d06b29ae75e8\CPF-experiment.csproj", "{93956A2B-9E81-4D7E-BD2A-FB88C315B361}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15691C5B-B9A7-4A52-A3B9-1FEA901337B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15691C5B-B9A7-4A52-A3B9-1FEA901337B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15691C5B-B9A7-4A52-A3B9-1FEA901337B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15691C5B-B9A7-4A52-A3B9-1FEA901337B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93956A2B-9E81-4D7E-BD2A-FB88C315B361}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93956A2B-9E81-4D7E-BD2A-FB88C315B361}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93956A2B-9E81-4D7E-BD2A-FB88C315B361}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93956A2B-9E81-4D7E-BD2A-FB88C315B361}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B60E029-C331-4DF4-BFCD-68385D15ADEB}
+	EndGlobalSection
+EndGlobal
